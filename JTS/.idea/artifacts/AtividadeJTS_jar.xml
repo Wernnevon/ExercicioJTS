@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AtividadeJTS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AtividadeJTS_jar</output-path>
+    <root id="archive" name="AtividadeJTS.jar">
+      <element id="module-output" name="AtividadeJTS" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

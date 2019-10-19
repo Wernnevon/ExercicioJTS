@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d1ad640-cb12-4bf2-af2b-3ba63de4281d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AtividadeJTS_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtividadeJTS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/test.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/test_robust.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/test_stmlf.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/testbuilder.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/testbuilder.command" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/testbuilder.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/testrunner.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/testrunner.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/bin/testrunner.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/JTS Developer Guide.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/JTS Technical Specs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/JTS TestBuilder &amp; TestRunner User Guide.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/JTS_Version_History.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/JTSVersion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/Angle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/BoundaryNodeRule.EndPointBoundaryNodeRule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/BoundaryNodeRule.Mod2BoundaryNodeRule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/BoundaryNodeRule.MonoValentEndPointBoundaryNodeRule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/BoundaryNodeRule.MultiValentEndPointBoundaryNodeRule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/BoundaryNodeRule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/CGAlgorithms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/CGAlgorithms3D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/CGAlgorithmsDD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/CentralEndpointIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/Centroid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/CentroidArea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/CentroidLine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/CentroidPoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/ConvexHull.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/HCoordinate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/InteriorPointArea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/InteriorPointLine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/InteriorPointPoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/LineIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/MCPointInRing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/MinimumBoundingCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/MinimumDiameter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/NonRobustCGAlgorithms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/NonRobustLineIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/NotRepresentableException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/PointInRing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/PointLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/RayCrossingCounter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/RectangleLineIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/RobustCGAlgorithms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/RobustDeterminant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/RobustLineIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/SimplePointInRing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/DiscreteHausdorffDistance.MaxDensifiedByFractionDistanceFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/DiscreteHausdorffDistance.MaxPointDistanceFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/DiscreteHausdorffDistance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/DistanceToPoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/PointPairDistance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/distance/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/locate/IndexedPointInAreaLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/locate/PointOnGeometryLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/locate/SimplePointInAreaLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/locate/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/locate/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/locate/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/match/AreaSimilarityMeasure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/match/HausdorffSimilarityMeasure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/match/SimilarityMeasure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/match/SimilarityMeasureCombiner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/match/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/match/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/match/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/algorithm/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/FontGlyphReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/GeometryCollectionShape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/IdentityPointTransformation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.BasePointShapeFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.Cross.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.Point.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.Square.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.Star.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.Triangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.X.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointShapeFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PointTransformation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/PolygonShape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/ShapeCollectionPathIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/ShapeReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/ShapeWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/awt/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/densify/Densifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/densify/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/densify/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/densify/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/dissolve/LineDissolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/dissolve/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/dissolve/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/dissolve/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/edgegraph/EdgeGraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/edgegraph/EdgeGraphBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/edgegraph/HalfEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/edgegraph/MarkHalfEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/edgegraph/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/edgegraph/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/edgegraph/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Coordinate.DimensionalComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Coordinate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateArrays.BidirectionalComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateArrays.ForwardComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateArrays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateSequence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateSequenceComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateSequenceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateSequenceFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/CoordinateSequences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/DefaultCoordinateSequenceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Dimension.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Envelope.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Geometry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/GeometryCollection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/GeometryCollectionIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/GeometryComponentFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/GeometryFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/GeometryFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/IntersectionMatrix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/LineSegment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/LineString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Lineal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/LinearRing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/MultiLineString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/MultiPoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/MultiPolygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/OctagonalEnvelope.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Point.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Polygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Polygonal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/PrecisionModel.Type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/PrecisionModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Puntal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/TopologyException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/Triangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/CoordinateArraySequence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/CoordinateArraySequenceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/PackedCoordinateSequence.Double.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/PackedCoordinateSequence.Float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/PackedCoordinateSequence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/PackedCoordinateSequenceFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/impl/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/PreparedGeometry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/PreparedGeometryFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/PreparedLineString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/PreparedPoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/PreparedPolygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/prep/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/AffineTransformation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/AffineTransformationBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/AffineTransformationFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/ComponentCoordinateExtracter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryCollectionMapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryCombiner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryEditor.CoordinateOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryEditor.CoordinateSequenceOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryEditor.GeometryEditorOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryEditor.NoOpGeometryOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryEditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryExtracter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryMapper.MapOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryMapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/GeometryTransformer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/LineStringExtracter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/LinearComponentExtracter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/NoninvertibleTransformationException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/PointExtracter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/PolygonExtracter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/ShortCircuitedGeometryVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/SineStarFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geom/util/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/Depth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/DirectedEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/DirectedEdgeStar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/Edge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/EdgeEnd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/EdgeEndStar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/EdgeIntersection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/EdgeIntersectionList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/EdgeList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/EdgeNodingValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/EdgeRing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/GeometryGraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/GraphComponent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/Label.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/Node.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/NodeFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/NodeMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/PlanarGraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/Position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/Quadrant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/TopologyLocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/EdgeSetIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/MonotoneChain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/MonotoneChainEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/MonotoneChainIndexer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/SegmentIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/SimpleEdgeSetIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/SimpleMCSweepLineIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/SimpleSweepLineIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/SweepLineEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/SweepLineSegment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/index/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/geomgraph/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/ArrayListVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/ItemVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/SpatialIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/Bintree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/Interval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/Key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/Node.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/NodeBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/Root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/bintree/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/chain/MonotoneChain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/chain/MonotoneChainBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/chain/MonotoneChainOverlapAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/chain/MonotoneChainSelectAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/chain/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/chain/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/chain/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/IntervalRTreeBranchNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/IntervalRTreeLeafNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/IntervalRTreeNode.NodeComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/IntervalRTreeNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/SortedPackedIntervalRTree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/intervalrtree/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/kdtree/KdNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/kdtree/KdNodeVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/kdtree/KdTree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/kdtree/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/kdtree/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/kdtree/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/DoubleBits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/IntervalSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/Key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/Node.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/NodeBase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/Quadtree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/Root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/quadtree/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/AbstractNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/AbstractSTRtree.IntersectsOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/AbstractSTRtree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/Boundable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/GeometryItemDistance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/Interval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/ItemBoundable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/ItemDistance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/SIRtree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/STRtree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/strtree/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/sweepline/SweepLineEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/sweepline/SweepLineIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/sweepline/SweepLineInterval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/sweepline/SweepLineOverlapAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/sweepline/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/sweepline/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/index/sweepline/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/ByteArrayInStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/ByteOrderDataInStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/ByteOrderValues.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/InStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/InputStreamInStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/OutStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/OutputStreamOutStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/ParseException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/WKBConstants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/WKBHexFileReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/WKBReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/WKBWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/WKTFileReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/WKTReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/WKTWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/GMLConstants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/GMLHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/GMLReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/GMLWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/GeometryStrategies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/gml2/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/kml/KMLWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/kml/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/kml/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/kml/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/io/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/LengthIndexedLine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/LengthLocationMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/LinearGeometryBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/LinearIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/LinearLocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/LocationIndexedLine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/linearref/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/DD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/MathUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/Matrix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/Plane3D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/Vector2D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/Vector3D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/math/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/BasicSegmentString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/FastNodingValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/FastSegmentSetIntersectionFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/InteriorIntersectionFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/InteriorIntersectionFinderAdder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/IntersectionAdder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/IntersectionFinderAdder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/IteratedNoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/MCIndexNoder.SegmentOverlapAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/MCIndexNoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/MCIndexSegmentSetMutualIntersector.SegmentOverlapAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/MCIndexSegmentSetMutualIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/NodableSegmentString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/NodedSegmentString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/Noder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/NodingValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/Octant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/OrientedCoordinateArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/ScaledNoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentIntersectionDetector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentNodeList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentPointComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentSetMutualIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentStringDissolver.SegmentStringMerger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentStringDissolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SegmentStringUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SimpleNoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SimpleSegmentSetMutualIntersector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/SinglePassNoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/GeometryNoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/HotPixel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/MCIndexPointSnapper.HotPixelSnapAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/MCIndexPointSnapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/MCIndexSnapRounder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/SimpleSnapRounder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/noding/snapround/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/BoundaryOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/GeometryGraphOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/IsSimpleOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/BufferInputLineSimplifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/BufferOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/BufferParameters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/OffsetCurveBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/OffsetCurveSetBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/BufferCurveMaximumDistanceFinder.MaxMidpointDistanceFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/BufferCurveMaximumDistanceFinder.MaxPointDistanceFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/BufferCurveMaximumDistanceFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/BufferDistanceValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/BufferResultValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/DistanceToPointFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/PointPairDistance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/buffer/validate/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/ConnectedElementLocationFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/ConnectedElementPointFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/DistanceOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/FacetSequence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/FacetSequenceTreeBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/GeometryLocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/IndexedFacetDistance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance3d/AxisPlaneCoordinateSequence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance3d/Distance3DOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance3d/PlanarPolygon3D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance3d/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance3d/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/distance3d/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/EdgeString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/LineMergeDirectedEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/LineMergeEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/LineMergeGraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/LineMerger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/LineSequencer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/linemerge/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/ConsistentPolygonRingChecker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/EdgeSetNoder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/LineBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/MaximalEdgeRing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/MinimalEdgeRing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/OverlayNodeFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/OverlayOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/PointBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/PolygonBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/snap/GeometrySnapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/snap/LineStringSnapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/snap/SnapIfNeededOverlayOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/snap/SnapOverlayOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/snap/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/snap/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/snap/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/validate/FuzzyPointLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/validate/OffsetPointGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/validate/OverlayResultValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/validate/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/validate/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/overlay/validate/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/polygonize/Polygonizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/polygonize/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/polygonize/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/polygonize/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/predicate/RectangleContains.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/predicate/RectangleIntersects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/predicate/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/predicate/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/predicate/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/EdgeEndBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/EdgeEndBundle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/EdgeEndBundleStar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/RelateComputer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/RelateNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/RelateNodeFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/RelateNodeGraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/RelateOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/relate/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/union/CascadedPolygonUnion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/union/PointGeometryUnion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/union/UnaryUnionOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/union/UnionInteracting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/union/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/union/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/union/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/ConnectedInteriorTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/ConsistentAreaTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/IndexedNestedRingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/IsValidOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/QuadtreeNestedRingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/RepeatedPointTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/SimpleNestedRingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/SweeplineNestedRingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/TopologyValidationError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/operation/valid/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/DirectedEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/DirectedEdgeStar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/Edge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/GraphComponent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/Node.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/NodeMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/PlanarGraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/Subgraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/algorithm/ConnectedSubgraphFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/algorithm/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/algorithm/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/algorithm/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/planargraph/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/CommonBits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/CommonBitsOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/CommonBitsRemover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/CoordinatePrecisionReducerFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/EnhancedPrecisionOp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/GeometryPrecisionReducer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/MinimumClearance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/PrecisionReducerCoordinateOperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/SimpleGeometryPrecisionReducer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/SimpleMinimumClearance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/doc-files/minClearance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/precision/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/GeometricShapeBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/fractal/KochSnowflakeBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/fractal/SierpinskiCarpetBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/fractal/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/fractal/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/fractal/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/random/RandomPointsBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/random/RandomPointsInGridBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/random/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/random/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/shape/random/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/simplify/DouglasPeuckerSimplifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/simplify/TaggedLineStringSimplifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/simplify/TopologyPreservingSimplifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/simplify/VWSimplifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/simplify/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/simplify/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/simplify/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/ConformingDelaunayTriangulationBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/ConformingDelaunayTriangulator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/ConstraintEnforcementException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/ConstraintSplitPointFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/ConstraintVertex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/ConstraintVertexFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/DelaunayTriangulationBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/IncrementalDelaunayTriangulator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/MidpointSplitPointFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/NonEncroachingSplitPointFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/Segment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/SplitSegment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/VertexTaggedGeometryDataMapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/VoronoiDiagramBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/EdgeConnectedTriangleTraversal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/LastFoundQuadEdgeLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/LocateFailureException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/QuadEdge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/QuadEdgeLocator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/QuadEdgeSubdivision.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/QuadEdgeTriangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/QuadEdgeUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/TraversalVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/TrianglePredicate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/TriangleVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/Vertex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/triangulate/quadedge/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/Assert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/AssertionFailedException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/CollectionUtil.Function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/CollectionUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/CoordinateArrayFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/CoordinateCountFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/Debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/GeometricShapeFactory.Dimensions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/GeometricShapeFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/Memory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/NumberUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/ObjectCounter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/PriorityQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/Stopwatch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/StringUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/UniqueCoordinateArrayFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/com/vividsolutions/jts/util/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/resources/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/resources/tab.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/resources/titlebar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/resources/titlebar_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/doc/javadoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/geojson/GeoJsonConstants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/geojson/GeoJsonReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/geojson/GeoJsonWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/geojson/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/geojson/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/geojson/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/oracle/OraReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/oracle/OraUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/oracle/OraWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/oracle/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/oracle/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/oracle/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/sde/SdeReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/sde/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/sde/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/com/vividsolutions/jts/io/sde/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/resources/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/resources/tab.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/resources/titlebar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/resources/titlebar_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/jtsio/doc/javadoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/JTS_Test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/jdom.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/jts-1.14-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/jts-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/jtsio-1.14-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/jtsio-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/junit.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/lib/xerces.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/external/GEOSBuffer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/external/TestBufferExternal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/external/TestBufferExternal2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/external/TestBufferJagged.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/external/TestOverlay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/external/TestValid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/external/geos-bug356-buffer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/failure/TestBigNastyBuffer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/failure/TestBufferFailure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/failure/TestBufferInsideNonEmpty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/failure/TestOverlayFailure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/failure/bug368jts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/failure/geos-bug368-union.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestBoundary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestBuffer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestBufferMitredJoin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestCentroid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestConvexHull-big.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestConvexHull.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestDensify.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestDistance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestEqualsExact.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionAA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionAAPrec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionLA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionLAPrec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionLL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionLLPrec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionPA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionPL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionPLPrec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestFunctionPP.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestInteriorPoint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestMinimumClearance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestOverlayEmpty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestPreparedPointPredicate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestPreparedPolygonPredicate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestPreparedPredicatesWithGeometryCollection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRectanglePredicate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelateAA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelateAC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelateLA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelateLC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelateLL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelatePA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelatePL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestRelatePP.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestSimple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestUnaryUnion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestUnaryUnionFloating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestValid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestValid2-big.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestValid2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/general/TestWithinDistance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/robust/ExternalRobustness.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/robust/MagnifyTopology.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/robust/TestRobustOverlayError.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/robust/TestRobustOverlayFixed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/robust/TestRobustOverlayFloat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/robust/TestRobustRelate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/stmlf/stmlf-cases-20061018_int.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/stmlf/stmlf-cases-20061020_int.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelateAA-big.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelateAA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelateAC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelateLA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelateLC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelateLL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelatePA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelatePL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jts-1.14/testxml/validate/TestRelatePP.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/modelo/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/modelo/JtsCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/visao/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/visao/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/ifpb/modelo/Figura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/ifpb/modelo/JtsCompiler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/ifpb/visao/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/edu/ifpb/visao/Printer.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SQeHQ4529sZ0CPEQhG3oBSpvpO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.visao.App" />
+      <module name="AtividadeJTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.ifpb.visao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d1ad640-cb12-4bf2-af2b-3ba63de4281d" name="Default Changelist" comment="" />
+      <created>1571500158247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571500158247</updated>
+      <workItem from="1571500161949" duration="5892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/edu/ifpb/visao/App.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/edu/ifpb/visao/Printer.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
